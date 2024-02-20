@@ -1,0 +1,12 @@
+.side-her0-container {
+  width: 100%;
+  display: flex;
+}
+.rifgt-sidebar {
+  width: calc(100% - 320px);
+  background-color: #ffaf389f;
+  position: absolute;
+  right: 0;
+  /* color: transparent; */
+  /* display: flex; */
+}

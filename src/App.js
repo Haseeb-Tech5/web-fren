@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MaskContainer from "./MaskContainer/MaskContainer";
+import MaskEffectDemo from "./MaskContainer/MaskEffectDemo";
+
+import LayoutGridDemo from "./LayoutGrid/TextRevealCardPreview";
+import { ImagesDemo } from "./Components/ParallaxScrollDemoVertical/ImagesDemo";
+import { ParallaxScroll } from "./ParallaxScrollDemo/ParallaxScroll";
+import { ParallaxScrollDemo } from "./ParallaxScrollDemo/ParallaxScrollDemo";
+import BeanCall from "./BackgroundBeam/BeanCall";
+import ToolImages from "./AnimatedToolTip/ToolImages";
+import DirectionAwareHoverDemo from "./DirectionAwareHoverDemo/DirectionAwareHoverDemo";
+import CardHoverEffectDemo from "./CardHoverEffectDemo/CardHoverEffectDemo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ToolImages /> */}
+      {/* <BeanCall /> */}
+      {/* <ParallaxScrollDemo /> */}
+      {/* <ImagesDemo /> */}
+      {/* <CardHoverEffectDemo /> */}
+      {/* <MaskEffectDemo /> */}
+      {/* <DirectionAwareHoverDemo /> */}
+      {/* <LayoutGridDemo /> */}
     </div>
   );
 }
