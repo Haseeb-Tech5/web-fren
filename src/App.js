@@ -10,6 +10,12 @@ import BeanCall from "./BackgroundBeam/BeanCall";
 import ToolImages from "./AnimatedToolTip/ToolImages";
 import DirectionAwareHoverDemo from "./DirectionAwareHoverDemo/DirectionAwareHoverDemo";
 import CardHoverEffectDemo from "./CardHoverEffectDemo/CardHoverEffectDemo";
+import StickyScrollRevealDemo from "./StickyScrollRevealDemo/StickyScrollRevealDemo";
+import ThreeDCardDemo from "./ThreeDCardDemo/ThreeDCardDemo";
+import GoogleGeminiEffectDemo from "./GoogleGeminiEffectDemo/GoogleGeminiEffectDemo";
+import TracingBeamDemo from "./TracingBeamDemo/TracingBeamDemo";
+import { InfiniteMovingCardsDemo } from "./InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
+import TextGenerateEffectDemo from "./TextGenerateEffectDemo/TextGenerateEffectDemo";
 
 function App() {
   return (
@@ -22,6 +28,12 @@ function App() {
       {/* <MaskEffectDemo /> */}
       {/* <DirectionAwareHoverDemo /> */}
       {/* <LayoutGridDemo /> */}
+      {/* <StickyScrollRevealDemo /> */}
+      {/* <ThreeDCardDemo /> */}
+      {/* <GoogleGeminiEffectDemo /> */}
+      {/* <TracingBeamDemo /> */}
+      {/* <InfiniteMovingCardsDemo /> */}
+      {/* <TextGenerateEffectDemo /> */}
     </div>
   );
 }
